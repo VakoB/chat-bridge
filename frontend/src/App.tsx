@@ -1,5 +1,6 @@
 import ChatPage from "./ChatPage";
 import Sidebar from "./components/Sidebar";
+// import Login from "./pages/Login";
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <Sidebar />
       <ChatPage />
     </div>
+    // <>
+    // <Login />
+    // </>
   );
 }
 
